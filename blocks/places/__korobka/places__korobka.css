@@ -1,0 +1,12 @@
+.places__korobka {
+    width: 50%;
+    height: 100%;
+    padding: 48px 0 0 28px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.places__korobka:nth-of-type(2) {
+    align-self: flex-start;
+}
