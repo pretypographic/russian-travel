@@ -1,9 +1,6 @@
 .cover__background {    
     width: calc(100vw - 96px);
-    background-image: url(../../../images/__overlay.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
     grid-column: 1/2;
     grid-row: 1/2;
+    z-index: 1;
 }

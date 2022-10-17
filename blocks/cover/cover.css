@@ -1,13 +1,8 @@
 .cover {
     margin: 92px 48px 0;
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: max-content;
     grid-template-rows: max-content;
-    align-items: center;    
-    transition: opacity 0.4s;
+    align-items: center;
+    text-decoration: none;
 }
-
-.cover:hover {
-    opacity: 0.3;
-  }
