@@ -9,7 +9,7 @@
     line-height: 76px;
     color: #FFFFFF;
     transition: line-height 0.4s;
-    transition: padding 0.4s;    
+    transition: padding 0.4s;
     transition: margin 0.4s;
 }
 
@@ -25,7 +25,7 @@
 @media screen and (max-width: 320px) {
     .places__title {        
         width: calc(100vw - 16px);
-        padding-top: 50px;        
+        padding-top: 50px;
         margin-left: 16px;
         font-size: 32px;
         line-height: 35px;
