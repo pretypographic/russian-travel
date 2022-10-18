@@ -9,4 +9,12 @@
     line-height: 76px;
     text-align: center;
     color: #FFFFFF;
+    transition: line-height 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

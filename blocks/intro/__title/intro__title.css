@@ -7,4 +7,12 @@
     font-size: 54px;
     line-height: 58px;
     color: #FFFFFF;
+    transition: line-height 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

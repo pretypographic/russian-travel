@@ -9,4 +9,20 @@
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
+    transition: line-height 0.4s;
+    transition: margin 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        margin: 0 24px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        margin: 0 16px;
+    }
 }

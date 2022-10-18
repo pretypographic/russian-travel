@@ -5,4 +5,25 @@
     grid-template-rows: max-content;
     align-items: center;
     text-decoration: none;
+    transition: margin 0.4s;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 92px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 90px 0 0;
+        grid-template-columns: min-content;
+        grid-template-rows: min-content;        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 66px 0 0;
+    }
 }

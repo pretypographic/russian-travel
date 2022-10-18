@@ -8,4 +8,26 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
+    transition: line-height 0.4s;
+    transition: padding 0.4s;    
+    transition: margin 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        width: calc(100vw - 24px);
+        padding-top: 73px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {        
+        width: calc(100vw - 16px);
+        padding-top: 50px;        
+        margin-left: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
