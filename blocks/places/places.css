@@ -1,5 +1,8 @@
 .places {
+    width: 100%;
+    max-width: 1280px;
     padding: 12px 148px 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

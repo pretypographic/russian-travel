@@ -1,5 +1,7 @@
 .cover__text {
     height: 100%;
+    padding: 0 48px 0;
+    box-sizing: border-box;
     background-color: rgba(42, 44, 47, 0.3);
     display: flex;
     flex-direction: column;
@@ -8,10 +10,17 @@
     grid-column: 1/2;
     grid-row: 1/2;
     position: relative;
+    transition: padding 0.4s;
     transition: background-color 0.4s;
     z-index: 2;
 }
 
 .cover__text:hover {
     background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__text {
+        padding: 0;
+    }
 }

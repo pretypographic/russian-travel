@@ -1,13 +1,16 @@
-.cover__background {    
-    width: calc(100vw - 96px);
+.cover__background {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 48px 0;
+    box-sizing: border-box;
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 1;
-    transition: width 0.4s;
+    transition: padding 0.4s;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__background {
-        width: 100vw;
+        padding: 0;
     }
 }

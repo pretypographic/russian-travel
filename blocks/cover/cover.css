@@ -1,8 +1,11 @@
 .cover {
-    margin: 92px 48px 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: 92px 0 0;    
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: max-content;
-    grid-template-rows: max-content;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
     align-items: center;
     text-decoration: none;
     transition: margin 0.4s;
@@ -16,9 +19,7 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        margin: 90px 0 0;
-        grid-template-columns: min-content;
-        grid-template-rows: min-content;        
+        margin: 90px 0 0;     
     }
 }
 
