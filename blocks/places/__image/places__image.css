@@ -1,12 +1,12 @@
 .places__image {
-    width: 50%;
+    width: 47.5%;
     padding-top: 48px;
     align-self: flex-start;
-    transition: width 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
     .places__image {
+        padding-top: 32px;
         width: 100%;
     }
 }

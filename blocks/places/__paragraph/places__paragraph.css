@@ -1,14 +1,21 @@
 .places__paragraph {
     margin: 0;
     padding-bottom: 25px;
-    font-family: 'Inter Regular', Tahoma, Geneva, sans-serif;
+    font-family: 'Inter', Tahoma, Geneva, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
+    font-size: 18px;
+    line-height: 29px;
     color: #FFFFFF; 
 }
 
 .places__paragraph:last-of-type {
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }

@@ -1,22 +1,24 @@
 .footer__nav {
     margin: 0;
     margin-left: 18px;
-    font-family: 'Inter Regular', Tahoma, Geneva, sans-serif;
+    font-family: 'Inter', Tahoma, Geneva, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    transition: margin 0.4s;
+    transition: line-height 0.4s;
 }
 
 .footer__nav:first-of-type {
     margin-left: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
     .footer__nav {
         margin: 32px 0 0;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

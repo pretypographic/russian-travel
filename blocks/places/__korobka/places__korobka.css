@@ -1,20 +1,29 @@
 .places__korobka {
-    width: 50%;
+    width: 52.5%;
     height: 100%;
-    padding: 48px 0 0 28px;
+    padding: 48px 0 0 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    transition: padding 0.4s;
-    transition: width 0.4s;
-    transition: align-self 0.4s;
 }
 
 .places__korobka:nth-of-type(2) {
     align-self: flex-start;
 }
 
+@media screen and (max-width: 1024px) {
+    .places__korobka {
+        padding: 48px 0 0 32px;   
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .places__korobka {
+        padding: 48px 0 0 28px;       
+    }
+}
+
+@media screen and (max-width: 540px) {
     .places__korobka {
         padding: 32px 16px 0;
         width: 100%;

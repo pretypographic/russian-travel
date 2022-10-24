@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/Inter-3.19/Inter-Web/inter.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/links/links.css);
 /* вводное */
@@ -7,8 +7,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav-s/header__nav-s.css);
 @import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/header/__nav/_status/header__nav_status_active.css);
-@import url(../blocks/header/__nav/_status/header__nav_status_inactive.css);
+@import url(../blocks/header/__nav/_active/header__nav_active.css);
 /* шапка */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -20,23 +19,24 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span/intro__span.css);
 /* статья, введение */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* галлерея */
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__place/place.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__korobka/places__korobka.css);
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-/* секции */
+/* места */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__background/cover__background.css);
 /* обложка */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav/footer__nav.css);

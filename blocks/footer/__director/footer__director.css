@@ -1,6 +1,6 @@
 .footer__director {
     margin: 0;
-    font-family: 'Inter Regular', Tahoma, Geneva, sans-serif;
+    font-family: 'Inter', Tahoma, Geneva, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -8,10 +8,9 @@
     text-align: right;
     color: #FFFFFF;
     transition: line-height 0.4s;
-    transition: margin 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
     .footer__director {
         margin-top: 48px;
         text-align: left;

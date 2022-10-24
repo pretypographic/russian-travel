@@ -1,13 +1,11 @@
 .cover {
     width: 100%;
-    max-width: 1280px;
-    margin: 92px 0 0;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    align-items: center;
-    text-decoration: none;
+    height: calc(100vw*0.625);
+    margin: 92px 48px 0;
+    max-width: 1184px;
+    max-height: 740px;
+    background: url(../../images/__background.jpg);
+    background-size: cover;
     transition: margin 0.4s;
 }
 
@@ -23,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .cover {
         margin: 66px 0 0;
     }

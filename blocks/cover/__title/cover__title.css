@@ -2,7 +2,7 @@
     max-width: 560px;
     margin: 0;
     opacity: 1;
-    font-family: 'Inter Black', Tahoma, Geneva, sans-serif;
+    font-family: 'Inter', Tahoma, Geneva, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -12,8 +12,9 @@
     transition: line-height 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
     .cover__title {
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }
