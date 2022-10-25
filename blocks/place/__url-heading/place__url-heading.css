@@ -1,6 +1,7 @@
-.places__url-heading {
+.place__url-heading {
     margin: 0;
     padding-bottom: 12px;
+    text-transform: uppercase;
     font-family: 'Inter', Tahoma, Geneva, sans-serif;
     font-style: normal;
     font-weight: 400;

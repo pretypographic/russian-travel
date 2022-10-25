@@ -10,7 +10,7 @@
     transition: line-height 0.4s;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
     .footer__director {
         margin-top: 48px;
         text-align: left;

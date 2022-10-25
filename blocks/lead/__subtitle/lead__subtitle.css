@@ -12,7 +12,7 @@
     transition: line-height 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .lead__subtitle {
         margin: 0 64px;
     }

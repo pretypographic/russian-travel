@@ -1,11 +1,11 @@
-.places__image {
+.place__image {
     width: 47.5%;
     padding-top: 48px;
     align-self: flex-start;
 }
 
 @media screen and (max-width: 540px) {
-    .places__image {
+    .place__image {
         padding-top: 32px;
         width: 100%;
     }

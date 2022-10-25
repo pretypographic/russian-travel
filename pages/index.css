@@ -9,6 +9,7 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__nav/_active/header__nav_active.css);
 /* шапка */
+@import url(../blocks/main/main.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -24,14 +25,14 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* галлерея */
-@import url(../blocks/places/places.css);
-@import url(../blocks/places/__place/place.css);
-@import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/places/__image/places__image.css);
-@import url(../blocks/places/__korobka/places__korobka.css);
-@import url(../blocks/places/__url-heading/places__url-heading.css);
-@import url(../blocks/places/__link/places__link.css);
-@import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/places-section/places-section.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__korobka/place__korobka.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 /* места */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);

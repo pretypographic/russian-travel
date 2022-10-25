@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     margin: 0;
     padding-bottom: 25px;
     font-family: 'Inter', Tahoma, Geneva, sans-serif;
@@ -9,12 +9,12 @@
     color: #FFFFFF; 
 }
 
-.places__paragraph:last-of-type {
+.place__paragraph:last-of-type {
     padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .places__paragraph {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }

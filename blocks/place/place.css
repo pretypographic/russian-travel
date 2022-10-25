@@ -1,20 +1,12 @@
 .place {
-    padding-top: 12px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-    .place {
-        padding-top: 15px;
-    }
-}
-
 @media screen and (max-width: 540px) {
     .place {
-        padding-top: 14px;
         flex-direction: column;
     }
 }
